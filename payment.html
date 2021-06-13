@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout Card</title>
+    <link href='https://www.soengsouy.com/favicon.ico' rel='icon' type='image/x-icon'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- library validate -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.js"></script>
+    <!-- style css -->
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<h2>Online Traffic Payment Form</h2>
+
+<div class="row">
+
+    <div class="col-75">
+        <div class="container">
+            <form id="validate" action="/action_page.php">
+                <div class="row">
+                    <div class="col-50">
+                        
+                        <label for="fname">Full Name</label>
+                        <input type="text" id="fname" name="fullname" placeholder="Aaron Agas" required>
+                        <label for="text">Liscense No.</label>
+                        <input type="text" id="number" name="number" placeholder="123XXXXX" required>
+                        <label for="adr"></i> Address</label>
+                        <input type="text" id="adr" name="address" placeholder="Brgy 143" required>
+                        <label for="city"></i> City</label>
+                        <input type="text" id="city" name="city" placeholder="Batac City" required>
+
+                        
+			</div>
+                            
+                        </div>
+                    </div>
+
+                    
+                        
+                <label>
+                
+                 <button type="button" onclick="location.href='finish.html';" class="block">Continue to Payment</button> 
+	</label>
+            </form>
+        </div>
+    </div>
+    <div class="col-25">
+        <div class="container">
+            <h4>Violations <span class="price" style="color:black"> <b>1</b></span></h4>
+            <p><a>Driving without Liscense</a> <span class="price">P 1000</span></p>
+            
+            <hr>
+            <p>Total <span class="price" style="color:black"><b>P 1000</b></span></p>
+        </div>
+    </div>
